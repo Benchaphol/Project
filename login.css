@@ -75,21 +75,22 @@ form img{
 .username{
     position: relative;
     font-family: "JasmineUPC";
+    left: 340px;
 }
 
 .password{
     position: relative;
     top:50px;
-    left: -256.2px;
+    left: 84px;
     font-family: "JasmineUPC";
 }
 
 form button{
     position: absolute;
-    left: -0.3%;
-    top: 110px;
+    left: 200px;
+    top: 120px;
     border-radius: 60px;
-    padding: 10px 100px;
+    padding: 15px 100px;
     background: orangered;
     border: 0px;
     font-family: "Bradley Hand ITC";
@@ -102,7 +103,7 @@ form a{
     color: #000;
     position: absolute;
     top: 88px;
-    left: 133px;
+    left: 335px;
     font-size: 18px;
     font-family: "JasmineUPC";
 }
