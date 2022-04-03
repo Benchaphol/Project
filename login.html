@@ -33,14 +33,13 @@
                     <img src="image/kmutnb1.png">
                 </figure>
             </div>
-            <!--<img src="image/user.png" class="user">-->
             <h1>LOG-IN</h1>
             <h2>เข้าสู่ระบบสำหรับนักศึกษา / ผู้จัดการหอพัก</h2>
             <form name="form" >
                 <input type="text" placeholder="&#128100; USERNAME" id="user" name="usser" class="username">
                 <input type="password" placeholder="&#128273; PASSWORD" id="pwd" name="pwd" maxlength="13" class="password">
                 <img src="image/eye.png" onclick="show_pwd(true)" onmouseout="show_pwd(false)"/>
-                <button type="submit">LOG-IN</button>
+                <input type="button" value="LOG-IN" id="submit" onclick="check()"/>
                 <a href="register.html">ลงทะเบียน/REGISTER</a>
             </form>
         </main>

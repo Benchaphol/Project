@@ -89,11 +89,10 @@ form img{
     left: 84px;
     font-family: "JasmineUPC";
 }
-
-form button{
+#submit{
     position: relative;
     left: 335px;
-    top: 120px;
+    top: 115px;
     border-radius: 60px;
     padding: 15px 100px;
     background: orangered;
@@ -101,8 +100,20 @@ form button{
     font-family: "Bradley Hand ITC";
     font-weight: bold;
     font-size: 18px;
-
 }
+/*
+form button{
+    position: relative;
+    left: 335px;
+    top: 115px;
+    border-radius: 60px;
+    padding: 15px 100px;
+    background: orangered;
+    border: 0px;
+    font-family: "Bradley Hand ITC";
+    font-weight: bold;
+    font-size: 18px;
+}*/
 
 form a{
     color: #000;
