@@ -107,11 +107,6 @@ form a{
     font-family: "JasmineUPC";
 }
 
-.kmutnb{
-    position: relative;
-    top: 20px;
-}
-
 .user{
     width: 100px;
     height: 95px;
@@ -120,12 +115,40 @@ form a{
     left: 50%;
 }
 
-.bg{
+.slide{
+    width: 650px;
+    height: 350px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 20px 5px rgb(#fff);
+    overflow: hidden;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+.slide figure img{
+    width: 20%;
+    height: 350px;
+    float: left;
+}
+
+.slide figure{
     position: relative;
-    top: 50px;
-    left: 45%;
-    width: 350px;
-    height: 365px;
-    opacity: 0.4;
-    filter: alpha(opacity=40); 
+    width: 500%;
+    margin: 0px;
+    left: 0px;
+    animation: kmutnb 20s infinite linear;
+}
+
+@keyframes kmutnb{
+    0%{left: 0%}
+    15%{left: 0%}
+    20%{left: -100%}
+    35%{left: -100%}
+    40%{left: -200%}
+    60%{left: -200%}
+    65%{left: -300%}
+    80%{left: -300%}
+    85%{left: -400%}
+    100%{left: -400%}
+
 }
