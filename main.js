@@ -1,9 +1,9 @@
 let username = ["admin"]
 let password = ["admin"]
-let noti_box  = true;
 
 //Check password and user in page login.html
 function check(){
+    let noti_box  = true;
     var log_user = document.getElementById("user").value;
     var log_pwd = document.getElementById("pwd").value;
     if((log_user == "") &&(log_pwd == "")) noti_box = false;
