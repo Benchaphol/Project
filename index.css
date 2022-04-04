@@ -37,6 +37,8 @@ header{
     top: 20%;
     left: 35%;
     border-radius: 20px;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
 }
 
 main h1{
@@ -113,7 +115,7 @@ form a{
     background-color: orangered;
     border-radius: 5px;
     border: none;
-    padding: 8px 16px;
+    padding: 10px 16px;
 }
 
 .slide{
