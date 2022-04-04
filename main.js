@@ -19,7 +19,7 @@ function check(){
             break;
         }
     }
-    if(noti_box) alert("You account is incorrent!");
+    if(noti_box) alert("Your account is incorrent!");
 }
 
 // Show password in page login.html
