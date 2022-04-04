@@ -19,7 +19,7 @@ header{
     position: absolute;
     left: 13.3%;
     top: 3%;
-    text-shadow: 0.2em 0.2em 0.3em black
+    text-shadow: 0.2em 0.2em 0.3em black;
 }
 
 .header h2{
@@ -29,12 +29,12 @@ header{
     position: absolute;
     left: 16.5%;
     top: 10%;
-    text-shadow: 0.2em 0.2em 0.3em black
+    text-shadow: 0.2em 0.2em 0.3em black;
 }
 .bg{
     width: 29%;
     height: 67vh;
-    background-color: #fff;
+    background-color: #000;
     position: absolute;
     top: 20%;
     left: 35%;
@@ -49,6 +49,7 @@ main h1{
     position: absolute;
     left: 45%;
     top: 26%;
+    color: white;
 }
 
 main h2{
@@ -58,6 +59,7 @@ main h2{
     position: absolute;
     left: 38%;
     top: 34%;
+    color: white;
 }
 
 form{
@@ -117,7 +119,8 @@ form a{
     background-color: orangered;
     border-radius: 5px;
     border: none;
-    padding: 10px 16px;
+    padding: 12px 18px;
+    box-shadow: 0.1em 0.1em 0.2em black;
 }
 
 .slide{
@@ -129,8 +132,8 @@ form a{
     position: absolute;
     top: -1%;
     left: 0.5%;
-    opacity: 0.2;
-    filter: alpha(opacity=20);
+    opacity: 0.9;
+    filter: alpha(opacity=90);
 }
 
 .slide figure img{
