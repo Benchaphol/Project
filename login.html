@@ -16,31 +16,31 @@
     </head>
     <body>
         <header>
+             <div class="slide">
+                <figure>
+                    <img src="image/kmutnb.png">
+                    <img src="image/fitm.jpg">
+                    <img src="image/bas.jpg">
+                    <img src="image/cms.jpg">
+                    <img src="image/kmutnb.png">
+                </figure>
+            </div>
             <div class="header">
-                <img src="image/logo.png" class="logo">
-                <h4>หอพักนักศึกษา / STUDENT DORMIYORY</h4>
-                <h1>มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ</h1>
-                <h3>KING MONGKUT'S UNIVERSITY OF TECHNOLOGY NORTH BANGKOK</h3>
+                <img src="image/logo.png">
+                <h1>KMUTNB</h1>
+                <h2>DORMIYORY</h2>
             </div>
         </header>
         <main>
-            <div class="slide">
-                <figure>
-                    <img src="image/kmutnb1.png">
-                    <img src="image/kmutnb2.jpg">
-                    <img src="image/kmutnb3.jpg">
-                    <img src="image/kmutnb4.jpg">
-                    <img src="image/kmutnb1.png">
-                </figure>
-            </div>
+            <div class="bg"></div>
             <h1>LOG-IN</h1>
             <h2>เข้าสู่ระบบสำหรับนักศึกษา / ผู้จัดการหอพัก</h2>
             <form name="form" method="post" >
-                <input type="text" placeholder="&#128100; USERNAME" id="user" name="usser" class="username">
-                <input type="password" placeholder="&#128273; PASSWORD" id="pwd" name="pwd" maxlength="13" class="password">
+                <input type="text" placeholder="&#128100; USERNAME" id="user" name="user">
+                <input type="password" placeholder="&#128273; PASSWORD" id="pwd" name="pwd" maxlength="13">
                 <img src="image/eye.png" onclick="show_pwd(true)" onmouseout="show_pwd(false)"/>
-                <input type="button" value="LOG-IN" id="submit" onclick="check()"/>
-                <a href="register.html">ลงทะเบียน/REGISTER</a>
+                <input type="button" value="LOG-IN" id="login" onclick="check()"/>
+                <a href="register.html" role="button" aria-pressed="true">Sign Up</a>
             </form>
         </main>
     </body>
