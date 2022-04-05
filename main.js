@@ -1,5 +1,5 @@
-//let username = ["admin"]
-//let password = ["admin"]
+let username = ["admin"]
+let password = ["admin"]
 
 //Check password and user in page login.html
 function check(){
