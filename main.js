@@ -1,5 +1,5 @@
-let username = ["admin"]
-let password = ["admin"]
+//let username = ["admin"]
+//let password = ["admin"]
 
 //Check password and user in page login.html
 function check(){
@@ -26,7 +26,7 @@ function check(){
 function show_pwd(opt){
     form.pwd.setAttribute('type', opt? 'text' : 'password');
 }
-
+/*
 //Sign up 
 function signup(){
     var regis_name = document.getElementById("ืname").value;
@@ -34,5 +34,4 @@ function signup(){
     var regis_stid = document.getElementById("ืstid").value;
     var regis_pid = document.getElementById("pid").value;
     var regis_phone = document.getElementById("ืphonenumber").value;
-    username.name.push(regis_stid);
-}
+}*/
