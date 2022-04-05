@@ -16,23 +16,23 @@ header{
     top: 15px;
 }
 
-.header h4{
+.header h1{
     color: white;
     font-size: 14px;
     font-family: "oppins", sans-serif;
     position: absolute;
     left: 35%;
-    top: 2%;
+    top: 4.5%;
     
 }
 
-.header h1{
+.header h2{
     color: white;
     font-size: 24px;
     font-family: "oppins", sans-serif;
     position: absolute;
     left: 35%;
-    top: 5%;
+    top: 5.5%;
 }
 
 .header h3{
@@ -41,7 +41,7 @@ header{
     font-family: "oppins", sans-serif;
     position: absolute;
     left: 35%;
-    top: 8.5%;
+    top: 9.4%;
 }
 
 main h1 {
@@ -62,12 +62,13 @@ form{
     top: 55%;
 }
 
-form input{
-    padding: 10px;
-    padding-right: 150px;
+form label input{
     font-size: 24px;
     border-radius: 8px;
-    
+    width: 330px;
+    height: 35px;
+    padding: 5px 10px;
+    border: none;
 }
 
 form #p1 {
@@ -86,8 +87,8 @@ form #p2 {
 .name{
     position: absolute;
     text-align: left;
-    top:-150px;
-    left: 0%;
+    top:-120px;
+    left: -15%;
     font-family: "JasmineUPC";
     
 }
@@ -95,34 +96,34 @@ form #p2 {
 .date{
     position: absolute;
     top:-50px;
-    left: 0%;
+    left: -15%;
     font-family: "JasmineUPC";
 }
 
 .id{
     position: absolute;
     top:50px;
-    left: 0%;
+    left: -15%;
     font-family: "JasmineUPC";
 }
 
 .pid{
     position: absolute;
     top:150px;
-    left: 0%;
+    left: -15%;
     font-family: "JasmineUPC";
 }
 
 .phone{
     position: absolute;
     top:250px;
-    left: 0%;
+    left: -15%;
     font-family: "JasmineUPC";
 }
 
 form button{
     position: absolute;
-    left: 12%;
+    left: -1%;
     top: 350px;
     border-radius: 60px;
     padding: 10px 100px;
