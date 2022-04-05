@@ -26,12 +26,3 @@ function check(){
 function show_pwd(opt){
     form.pwd.setAttribute('type', opt? 'text' : 'password');
 }
-/*
-//Sign up 
-function signup(){
-    var regis_name = document.getElementById("ืname").value;
-    var regis_birth = document.getElementById("birthday").value;
-    var regis_stid = document.getElementById("ืstid").value;
-    var regis_pid = document.getElementById("pid").value;
-    var regis_phone = document.getElementById("ืphonenumber").value;
-}*/
