@@ -9,11 +9,18 @@ header{
 }
 
 .logo{
+    /*width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 400px;
+    top: 15px;*/
     width: 120px;
     height: 120px;
     position: absolute;
-    left: 400px;
-    top: 15px;
+    left: 4%;
+    top: 3%;
+    box-shadow:  0.2em 0.2em 0.3em black;
+    border-radius: 50%;
 }
 
 .header h1{
