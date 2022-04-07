@@ -2,11 +2,11 @@ body {
     background:linear-gradient(to right , #4c4c4c , #000000);
 }
 
-header{
+/*header{
     width: 30%;
     height: 23vh;
     background: linear-gradient(to left , #f3593e , #ed2c0a);
-}
+}*/
 
 .logo{
     width: 120px;
@@ -47,11 +47,26 @@ header{
     top: 9.4%;
 }
 
+.bg{
+    width: 35%;
+    height: 100vh;
+    background-color: whitesmoke;
+    position: absolute;
+    background-position: center center;
+    left: 0%;
+    right: 100%;
+    top: 0%;
+    border-radius: 20px;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+
 main h1 {
-    color: white;
+    color: #fff;
     text-align: center;
     position: relative;
-    top: -60px;
+    top: 130px;
 }
 
 main h2{
