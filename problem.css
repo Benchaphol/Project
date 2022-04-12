@@ -55,6 +55,15 @@ header{
     font-weight: bold;
 }
 
+#log-out{
+    position: relative;
+    font-family: "JasmineUPC";
+    font-size: 24px;
+    left: 85%;
+    top: -135px;
+    color: black;
+}
+
 .box-data{
     background-color: gray;
     width: 60%;
