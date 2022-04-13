@@ -2,12 +2,6 @@ body {
     background:linear-gradient(to right , #4c4c4c , #000000);
 }
 
-/*header{
-    width: 30%;
-    height: 23vh;
-    background: linear-gradient(to left , #f3593e , #ed2c0a);
-}*/
-
 .logo{
     width: 120px;
     height: 120px;
@@ -49,102 +43,87 @@ body {
 
 .bg{
     width: 35%;
-    height: 100vh;
+    height: 96vh;
     background-color: whitesmoke;
     position: absolute;
     border-radius: 20px;
-    opacity: 0.6;
-    filter: alpha(opacity=60);
+    /*opacity: 0.6;
+    filter: alpha(opacity=60);*/
+    left: 30%;
 }
 
 
-main h1 {
-    color: #fff;
+.bg h1 {
+    color: #000000;
     text-align: center;
     position: relative;
-    top: 130px;
 }
 
-main h2{
-    color: white;
+.bg h2{
+    color: #000000;
     font-size: 24px;
     font-family: "JasmineUPC";
     text-align: center;
     position: relative;
-    top: -80px;
 }
 
 form{
     position: absolute;
-    left: 42%;
-    top: 55%;
 }
 
-form label input{
+form input{
     font-size: 24px;
     border-radius: 8px;
     width: 330px;
     height: 35px;
     padding: 5px 10px;
     border: none;
+    left: 35%;
 }
 
 form #p1 {
-    position:relative;
-    top:-13px;
-    left: -12%;
     color: red;
-
+    top: 110px;
+    left: 100px;
+    position: relative;
 }
 
 form #p2 {
-    position:relative;
-    top:17px;
-    left: -12%;
     color: red;
+    top: 180px;
+    left: 100px;
+    position: relative;
 }
 
 .name{
     position: absolute;
     text-align: left;
-    top:-120px;
-    left: -15%;
     font-family: "JasmineUPC";
-    
-}
-
-.date{
-    position: absolute;
-    top:-20px;
-    left: -15%;
-    font-family: "JasmineUPC";
+    top: 50px;
 }
 
 .id{
     position: absolute;
-    top:80px;
-    left: -15%;
     font-family: "JasmineUPC";
+    top: 150px;
 }
 
 .pid{
     position: absolute;
-    top:180px;
-    left: -15%;
     font-family: "JasmineUPC";
+    top: 250px;
 }
 
 .phone{
     position: absolute;
-    top:280px;
-    left: -15%;
     font-family: "JasmineUPC";
+    top: 350px;
 }
 
 form button{
     position: absolute;
-    left: -1%;
-    top: 380px;
+    left: 45%;
+    top: 450px;
     border-radius: 60px;
     padding: 10px 100px;
     background: orangered;
@@ -152,5 +131,4 @@ form button{
     font-family: "JasmineUPC";
     font-weight: bold;
     font-size: 34px;
-
 }
